@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Noto+Sans:wght@400;700&family=Raleway:wght@300&display=swap');
+
+html {
+  background-color: #5FBFF9;
+  font-family: sans-serif;
+  color: #fff;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Domine";
+  font-weight: 700;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Raleway", serif;
+  font-weight: 300;
+  text-transform: uppercase
+}
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+}
+.padded {
+  padding: 2em;
+}
+
+.button {
+  background-color: #81A684;
+  padding: 8px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  text-decoration: none!important;
+  color: #fff;
+  font-weight: 700;
+  border-width: 0;
+  box-shadow: 0 2px 0 #002d18;
+}
+
+.button:hover {
+  background-color: #5f8662;
+}
+
+.button:active {
+  background-color: #E8DDB5;
+  color: #1D1F20;
+}
+
+
+@media (min-width: 20em) and (max-width: 40.0525em) {
+p {
+  font-size: 20px;
+  font-weight: 400;
+}
+img {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+}
+}
